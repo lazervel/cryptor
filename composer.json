@@ -1,0 +1,30 @@
+{
+  "name": "lazervel/cryptor",
+  "description": "Cryptor is a PHP library for easy and secure data encryption and decryption.",
+  "type": "library",
+  "keywords": ["cryptor", "codec", "encrypt", "decrypt", "lazervel", "php"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lazervel\\Cryptor\\": "lib/"
+    }
+  },
+  "require": {
+    "php": "^7.2 || ^8.0"
+  },
+  "homepage": "https://github.com/lazervel",
+  "authors": [
+    {
+      "name": "Indian Modassir",
+      "email": "indianmodassir@gmail.com",
+      "homepage": "https://github.com/indianmodassir"
+    }
+  ],
+  "funding": [
+    {
+      "type": "Github",
+      "url": "https://github.com/sponsors/indianmodassir"
+    }
+  ],
+  "minimum-stability": "stable"
+}
