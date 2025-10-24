@@ -2,11 +2,11 @@
   "name": "lazervel/cryptor",
   "description": "Cryptor is a PHP library for easy and secure data encryption and decryption.",
   "type": "library",
-  "keywords": ["cryptor", "codec", "encrypt", "decrypt", "lazervel", "php"],
+  "keywords": ["Cryptor", "codec", "encrypt", "decrypt", "lazervel", "php"],
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Lazervel\\Cryptor\\": "lib/"
+      "Lazervel\\Cryptor\\": "src/"
     }
   },
   "require": {
