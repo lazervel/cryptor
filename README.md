@@ -1,11 +1,11 @@
-# 🔐 Lazervel Cryptor
+# Cryptor
 
 A lightweight and secure PHP encryption library that provides modern **AES-256-GCM** authenticated encryption and decryption with optional AAD (Additional Authenticated Data) support.  
 It is designed to be **simple, dependency-free**, and compatible with any PHP application or framework.
 
 ---
 
-## 🚀 Features
+## Features
 
 - ✅ AES-256-GCM authenticated encryption  
 - ✅ Optional AAD (Additional Authenticated Data)  
@@ -16,7 +16,7 @@ It is designed to be **simple, dependency-free**, and compatible with any PHP ap
 
 ---
 
-## 📦 Installation
+## Installation
 
 Use Composer (recommended):
 
@@ -89,7 +89,7 @@ If the `$add` differs, decryption will fail — ensuring data integrity.
 
 ---
 
-## 🛡️ Security Design
+## Security Design
 
 | Aspect | Detail |
 |--------|---------|
@@ -103,7 +103,7 @@ If the `$add` differs, decryption will fail — ensuring data integrity.
 
 ---
 
-## ⚠️ Error Handling
+## Error Handling
 
 | Error | Thrown when |
 |-------|--------------|
@@ -132,11 +132,11 @@ try {
 | `aes-128-gcm` | Lightweight variant |
 | `aes-256-cbc` | Legacy compatibility mode (no authentication) |
 
-> ⚠️ GCM mode is recommended for all new applications.
+> GCM mode is recommended for all new applications.
 
 ---
 
-## 🧼 Example Output Format
+## Example Output Format
 
 Encrypted data is a **Base64-encoded JSON** like this:
 
@@ -153,7 +153,7 @@ Entire JSON is Base64 encoded again to make it safe for database or URL storage.
 
 ---
 
-## 🔧 Methods Summary
+## Methods Summary
 
 | Method | Description |
 |--------|--------------|
@@ -164,7 +164,7 @@ Entire JSON is Base64 encoded again to make it safe for database or URL storage.
 
 ---
 
-## 🧱 Example Integration (with Laravel)
+## Example Integration (with Laravel)
 
 ```php
 // config/app.php
@@ -179,15 +179,15 @@ $encrypted = $cryptor->encrypt('Secret Message');
 
 ---
 
-## 🧾 License
+## License
 
 This package is open-sourced software licensed under the **MIT License**.
 
 ---
 
-## 💬 Author
+## Author
 
-**Afsara**  
-Developer of [Lazervel](https://github.com/afsara) — a collection of modern PHP libraries for secure, modular development.
+**Indian Modassir**  
+Developer of [Lazervel](https://github.com/indianmodassir) — a collection of modern PHP libraries for secure, modular development.
 
 ---
