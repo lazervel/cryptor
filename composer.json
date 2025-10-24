@@ -20,6 +20,12 @@
       "homepage": "https://github.com/indianmodassir"
     }
   ],
+  "repositories": [
+    {
+        "type": "composer",
+        "url": "https://repo.packagist.org"
+    }
+  ],
   "funding": [
     {
       "type": "Github",
